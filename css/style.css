@@ -6,9 +6,7 @@
     justify-content: space-around;
     align-items: center;
     height: 254px;
-    
-   
-}
+ }
 
 .header-flex {
     display: flex;
@@ -18,10 +16,15 @@
     height: 254px;
     position: fixed;
     top:0;
-    left:0;
+    left: 350px;
+    right: 350px;
     z-index: 50;
 }
 
+.nav-a {
+    font-size: 18px;
+    color: #37393f;
+}
 
 .logo {
     width: 200px;
@@ -29,7 +32,7 @@
 }
 
 .nav {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,13 +66,26 @@
 .block-2 {
 width: 1220px;
 height: 510px;
+margin-left: 350px;
+margin-right: 350px;
 }
 
-.block-2-text{
+.block-2-text {
    display: flex;
    flex-direction: column;
    align-items: center;
 
+}
+
+.text-Work-Process {
+    font-size: 18px;
+    color: #37393f;
+}
+
+.How-We-Work {
+    font-size: 40px;
+    color: #37393f;
+    margin-top: 16px;
 
 }
 
@@ -77,6 +93,7 @@ height: 510px;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1200px;
     height: 383px;
     position: relative;
@@ -84,60 +101,57 @@ height: 510px;
 }
 
 .div-flex-1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: nowrap;
+   
     width: 386px;
-    height: 383px;
     background-color: #F4F4F4;
 }
 
 .div-flex-2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+
     width: 386px;
-    height: 383px;
     background-color: #F4F4F4;
 }
 
 .div-flex-3 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     width: 386px;
-    height: 383px;
     background-color:  #F4F4F4;
 }
 .child-div {
-    width: 300px;
-    height: 185px;
+    padding: 58px 42px 10px 43px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-self: center;
     flex-direction: column;
 }
 
 .title-a {
     font-size: 25px;
-    Width: 245px;
-    Height: 32px;
-    /* text-align: center; */
+    color: #37393f;
+    text-align: center;
+    padding-bottom: 16px;
+
 }
+
 .text-a {
     font-size: 18px;  
+    color: #7d7d7d;
     text-align: center;
+
 }
-
-
 
 .text-b {
     font-size: 22px;
+    color: #6B77E5;
+    margin-top: 37px;
     text-align: center;
-    width: 111px;
-    height: 22px;
 
+}
+
+.block-icon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
 }
 
 .aqua-box {
@@ -179,14 +193,14 @@ flex-direction: column;
 
 /* video-section */
 
-.video-section{
+.video-section {
     width: 1920px;
     height: 557px;
     background-color: #40DDB6;
     position: relative;
     margin: auto;
 }
-.text-video{
+.text-video {
     width: 511px;
     height: 271px;
     position: absolute;
@@ -197,8 +211,104 @@ flex-direction: column;
     text-align: center;
 }
 
-.play-video{
+.play-video {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.title-short-video {
+    font-size: 18px;
+    color: #37393f;
+}
+
+.text-out-presentation {
+    font-size: 40px;
+    color: #37393f;
+    margin-bottom: 21px;
+    margin-top: 16px;
+}
+
+.text-content {
+    font-size: 18px;
+    color: #37393f;
+}
+
+.expert{
+    width: 1220px;
+    margin: 0 auto;
+    margin-left: 348px;
+    margin-right: 348px;
+    margin-top: 130px;
+}
+
+
+.title-expert{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.our{
+    font-size: 16px;
+    color: #37393f;
+}
+.meet-text{
+    font-size: 40px;
+    color: #37393f;
+}
+
+.expert-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image-size{
+    width: 386px;
+    height: 532px;
+    margin-top: 127px;
+}
+.nattasha{
+    position: relative;
+    z-index: 3;
+}
+
+.david{
+    position: relative;
+    z-index: 3;
+}
+
+.madeleine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.child-box {
+    background-color: #ffffff;
+    width: 341px;
+    height: 114px;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    right: 23px;
+    z-index: 7;
+    text-align: center;
+}
+
+.expert-title-2{
+    font-size: 38px;
+    color: #37393f;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+
+.expert-text-2{
+    font-size: 18px;
+    color: #7d7d7d;
+    
 }

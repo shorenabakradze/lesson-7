@@ -16,14 +16,15 @@
     height: 254px;
     position: fixed;
     top:0;
-    left: 350px;
-    right: 350px;
+    left: 350;
+    right: 350;
     z-index: 50;
 }
 
 .nav-a {
     font-size: 18px;
     color: #37393f;
+    font-family: 'Inter';
 }
 
 .logo {
@@ -53,6 +54,7 @@
     background-color: #6B77E6;
     padding: 21px 35px 22px 35px;
     margin-left:40px;
+    font-family: 'Cabin';
 
 }
 
@@ -80,12 +82,15 @@ margin-right: 350px;
 .text-Work-Process {
     font-size: 18px;
     color: #37393f;
+    font-family: 'Inter';
 }
 
 .How-We-Work {
     font-size: 40px;
     color: #37393f;
     margin-top: 16px;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px black;
 
 }
 
@@ -129,6 +134,7 @@ margin-right: 350px;
     color: #37393f;
     text-align: center;
     padding-bottom: 16px;
+    font-family: 'Inter-M';
 
 }
 
@@ -144,6 +150,7 @@ margin-right: 350px;
     color: #6B77E5;
     margin-top: 37px;
     text-align: center;
+    font-family: 'Inter-M';
 
 }
 
@@ -164,14 +171,13 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top: 10px;
-
-
+margin-bottom: 58px;
 }
+
 .block-icon {
     display: flex;
-    
     align-items: center; 
-    /* flex-direction: column;  */
+
 }
 
 .blue-box {
@@ -183,6 +189,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+margin-bottom: 58px;
 
 }
 
@@ -220,6 +227,7 @@ flex-direction: column;
 .title-short-video {
     font-size: 18px;
     color: #37393f;
+    font-family: 'Inter';
 }
 
 .text-out-presentation {
@@ -227,12 +235,16 @@ flex-direction: column;
     color: #37393f;
     margin-bottom: 21px;
     margin-top: 16px;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px black;
 }
 
 .text-content {
     font-size: 18px;
     color: #37393f;
+    padding-bottom: 47px;
 }
+
 
 .expert{
     width: 1220px;
@@ -253,10 +265,13 @@ flex-direction: column;
 .our{
     font-size: 16px;
     color: #37393f;
+    font-family: 'Inter';
 }
 .meet-text{
     font-size: 40px;
     color: #37393f;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px black;
 }
 
 .expert-list{
